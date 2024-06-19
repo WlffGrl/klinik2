@@ -1,0 +1,1145 @@
+2024/06/18 07:34:41 [error] [exception.ParseError] ParseError: syntax error, unexpected token "public", expecting end of file in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\SiteController.php:3
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(276): CWebApplication->createController('')
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php
+---
+2024/06/18 07:34:42 [error] [exception.ParseError] ParseError: syntax error, unexpected token "public", expecting end of file in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\SiteController.php:3
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(276): CWebApplication->createController('')
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php
+---
+2024/06/18 13:55:56 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('patient/view')
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/patient/view
+---
+2024/06/18 13:59:07 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('patient/view/1')
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/patient/view/1
+---
+2024/06/18 14:02:39 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('patient/view')
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/patient/view
+---
+2024/06/18 14:03:05 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "1". in C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(270): CController->missingAction('1')
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('1')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('patient/1/view')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/patient/1/view
+---
+2024/06/18 14:03:15 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('patient/view')
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/patient/view
+---
+2024/06/18 14:48:35 [error] [exception.CException] CException: Property "CGridView.itemView" is not defined. in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:172
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWidgetFactory.php(161): CComponent->__set('itemView', '_view')
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(PatientController), 'CGridView', Array)
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\patient\index.php(14): CBaseController->widget('zii.widgets.gri...', Array)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#8 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\PatientController.php(8): CController->render('index', Array)
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): PatientController->actionIndex()
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('index')
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('patient/index')
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/patient/index
+---
+2024/06/18 14:49:24 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index2". in C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(270): CController->missingAction('index2')
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('index2')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('patient/index2')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/patient/index2
+---
+2024/06/18 14:49:36 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index2". in C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(270): CController->missingAction('index2')
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('index2')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('patient/index2')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/patient/index2
+---
+2024/06/18 14:50:58 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index2". in C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(270): CController->missingAction('index2')
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('index2')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('patient/index2')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/patient/index2
+---
+2024/06/18 14:51:13 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index2". in C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(270): CController->missingAction('index2')
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('index2')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('patient/index2')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/patient/index2
+---
+2024/06/18 14:58:23 [error] [exception.ParseError] ParseError: syntax error, unexpected token "array", expecting ")" in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\main.php:36
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(215): COutputProcessor->run()
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#6 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\SiteController.php(32): CController->render('index')
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/patient/index
+---
+2024/06/18 15:01:07 [error] [exception.ParseError] ParseError: syntax error, unexpected token "array", expecting ")" in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\main.php:36
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(215): COutputProcessor->run()
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#6 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\SiteController.php(32): CController->render('index')
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/patient/index
+---
+2024/06/18 15:01:08 [error] [exception.ParseError] ParseError: syntax error, unexpected token "array", expecting ")" in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\main.php:36
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(215): COutputProcessor->run()
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#6 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\SiteController.php(32): CController->render('index')
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php
+---
+2024/06/18 15:01:11 [error] [exception.ParseError] ParseError: syntax error, unexpected token "array", expecting ")" in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\main.php:36
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(215): COutputProcessor->run()
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#6 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\SiteController.php(32): CController->render('index')
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/
+---
+2024/06/18 15:03:17 [error] [exception.ParseError] ParseError: Unmatched ')' in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\main.php:39
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(215): COutputProcessor->run()
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#6 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\SiteController.php(32): CController->render('index')
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/
+---
+2024/06/18 15:03:18 [error] [exception.ParseError] ParseError: Unmatched ')' in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\main.php:39
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(215): COutputProcessor->run()
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#6 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\SiteController.php(32): CController->render('index')
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/
+---
+2024/06/18 15:03:19 [error] [exception.ParseError] ParseError: Unmatched ')' in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\main.php:39
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(215): COutputProcessor->run()
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#6 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\SiteController.php(32): CController->render('index')
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/
+---
+2024/06/18 15:06:03 [error] [exception.CException] CException: Property "CWebUser.role" is not defined. in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\auth\CWebUser.php(146): CComponent->__get('role')
+#1 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\main.php(35): CWebUser->__get('role')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(215): COutputProcessor->run()
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/
+---
+2024/06/18 15:06:04 [error] [exception.CException] CException: Property "CWebUser.role" is not defined. in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\auth\CWebUser.php(146): CComponent->__get('role')
+#1 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\main.php(35): CWebUser->__get('role')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(215): COutputProcessor->run()
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/
+---
+2024/06/18 15:06:05 [error] [exception.CException] CException: Property "CWebUser.role" is not defined. in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\auth\CWebUser.php(146): CComponent->__get('role')
+#1 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\main.php(35): CWebUser->__get('role')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(215): COutputProcessor->run()
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/
+---
+2024/06/18 15:12:37 [error] [exception.CException] CException: CWebUser and its behaviors do not have a method or closure named "role". in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:264
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\main.php(35): CComponent->__call('role', Array)
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(215): COutputProcessor->run()
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#8 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\SiteController.php(32): CController->render('index')
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/
+---
+2024/06/18 15:12:39 [error] [exception.CException] CException: CWebUser and its behaviors do not have a method or closure named "role". in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:264
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\main.php(35): CComponent->__call('role', Array)
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(215): COutputProcessor->run()
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#8 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\SiteController.php(32): CController->render('index')
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php
+---
+2024/06/18 15:12:42 [error] [exception.CException] CException: CWebUser and its behaviors do not have a method or closure named "role". in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:264
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\main.php(35): CComponent->__call('role', Array)
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(215): COutputProcessor->run()
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#8 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\SiteController.php(32): CController->render('index')
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php
+---
+2024/06/18 15:12:50 [error] [exception.CException] CException: CWebUser and its behaviors do not have a method or closure named "can". in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:264
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\main.php(35): CComponent->__call('can', Array)
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(215): COutputProcessor->run()
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#8 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\SiteController.php(32): CController->render('index')
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php
+---
+2024/06/18 15:31:14 [error] [exception.CException] CException: Property "WebUser.isAdmin" is not defined. in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\auth\CWebUser.php(146): CComponent->__get('isAdmin')
+#1 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\main.php(35): CWebUser->__get('isAdmin')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(215): COutputProcessor->run()
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php
+---
+2024/06/18 15:31:18 [error] [exception.CException] CException: Property "WebUser.isAdmin" is not defined. in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\auth\CWebUser.php(146): CComponent->__get('isAdmin')
+#1 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\main.php(35): CWebUser->__get('isAdmin')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(215): COutputProcessor->run()
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php
+---
+2024/06/18 15:47:42 [error] [exception.ParseError] ParseError: Unmatched ')' in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\patient\index.php:15
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#3 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\PatientController.php(8): CController->render('index', Array)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): PatientController->actionIndex()
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('index')
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('patient/index')
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/patients
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/site/contact
+---
+2024/06/18 16:21:54 [error] [exception.CException] CException: Property "Patient.appointment_id" is not defined. in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('appointment_id')
+#1 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\patient\view.php(43): CActiveRecord->__get('appointment_id')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(785): CController->renderPartial('view', Array, true)
+#6 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\PatientController.php(15): CController->render('view', Array)
+#7 [internal function]: PatientController->actionView('1')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(PatientController), Array)
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PatientController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('patient/view')
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/patient/1
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/patients
+---
+2024/06/18 16:22:24 [error] [exception.CException] CException: Property "Patient.appointment_id" is not defined. in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('appointment_id')
+#1 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\patient\view.php(45): CActiveRecord->__get('appointment_id')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(785): CController->renderPartial('view', Array, true)
+#6 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\PatientController.php(15): CController->render('view', Array)
+#7 [internal function]: PatientController->actionView('1')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(PatientController), Array)
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PatientController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('patient/view')
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/patient/1
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/patients
+---
+2024/06/18 16:22:26 [error] [exception.CException] CException: Property "Patient.appointment_id" is not defined. in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('appointment_id')
+#1 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\patient\view.php(45): CActiveRecord->__get('appointment_id')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(785): CController->renderPartial('view', Array, true)
+#6 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\PatientController.php(15): CController->render('view', Array)
+#7 [internal function]: PatientController->actionView('1')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(PatientController), Array)
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PatientController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('patient/view')
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/patient/1
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/patients
+---
+2024/06/18 16:23:55 [error] [exception.CException] CException: Property "Patient.appointment_id" is not defined. in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('appointment_id')
+#1 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\patient\view.php(45): CActiveRecord->__get('appointment_id')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(785): CController->renderPartial('view', Array, true)
+#6 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\PatientController.php(15): CController->render('view', Array)
+#7 [internal function]: PatientController->actionView('1')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(PatientController), Array)
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PatientController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('patient/view')
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/patient/1
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/patients
+---
+2024/06/19 09:55:24 [error] [exception.CException] CException: Property "Appointment.doctor" is not defined. in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('doctor')
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\helpers\CHtml.php(2784): CActiveRecord->__get('doctor')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\helpers\CHtml.php(2507): CHtml::resolveValue(Object(Appointment), 'doctor')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\helpers\CHtml.php(1554): CHtml::activeInputField('text', Object(Appointment), 'doctor', Array)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CActiveForm.php(793): CHtml::activeTextField(Object(Appointment), 'doctor', Array)
+#5 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\Appointment\_form.php(26): CActiveForm->textField(Object(Appointment), 'doctor', Array)
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\Appointment\create.php(15): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#14 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php(31): CController->render('create', Array)
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): AppointmentController->actionCreate()
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('create')
+#20 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('appointment/cre...')
+#21 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/appointment/create
+---
+2024/06/19 09:59:43 [error] [exception.CException] CException: Property "Appointment.doctor" is not defined. in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('doctor')
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\helpers\CHtml.php(2784): CActiveRecord->__get('doctor')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\helpers\CHtml.php(2507): CHtml::resolveValue(Object(Appointment), 'doctor')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\helpers\CHtml.php(1554): CHtml::activeInputField('text', Object(Appointment), 'doctor', Array)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CActiveForm.php(793): CHtml::activeTextField(Object(Appointment), 'doctor', Array)
+#5 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\Appointment\_form.php(26): CActiveForm->textField(Object(Appointment), 'doctor', Array)
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\Appointment\update.php(18): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(785): CController->renderPartial('update', Array, true)
+#14 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php(47): CController->render('update', Array)
+#15 [internal function]: AppointmentController->actionUpdate('1')
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(AppointmentController), Array)
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(AppointmentController), Object(ReflectionMethod), Array)
+#18 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('update')
+#22 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('appointment/upd...')
+#23 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/appointment/update/1
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/appointment/index
+---
+2024/06/19 10:00:49 [error] [exception.CException] CException: Property "Appointment.doctor" is not defined. in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('doctor')
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\helpers\CHtml.php(2784): CActiveRecord->__get('doctor')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\helpers\CHtml.php(2507): CHtml::resolveValue(Object(Appointment), 'doctor')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\helpers\CHtml.php(1554): CHtml::activeInputField('text', Object(Appointment), 'doctor', Array)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CActiveForm.php(793): CHtml::activeTextField(Object(Appointment), 'doctor', Array)
+#5 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\Appointment\_form.php(26): CActiveForm->textField(Object(Appointment), 'doctor', Array)
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\Appointment\update.php(18): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(785): CController->renderPartial('update', Array, true)
+#14 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php(47): CController->render('update', Array)
+#15 [internal function]: AppointmentController->actionUpdate('1')
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(AppointmentController), Array)
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(AppointmentController), Object(ReflectionMethod), Array)
+#18 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('update')
+#22 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('appointment/upd...')
+#23 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/appointment/update/1
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/appointment/index
+---
+2024/06/19 10:06:51 [error] [exception.CException] CException: Property "Appointment.description" is not defined. in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('description')
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\helpers\CHtml.php(2784): CActiveRecord->__get('description')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\helpers\CHtml.php(2507): CHtml::resolveValue(Object(Appointment), 'description')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\helpers\CHtml.php(1554): CHtml::activeInputField('text', Object(Appointment), 'description', Array)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CActiveForm.php(793): CHtml::activeTextField(Object(Appointment), 'description', Array)
+#5 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\Appointment\_form.php(26): CActiveForm->textField(Object(Appointment), 'description', Array)
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\Appointment\update.php(18): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(785): CController->renderPartial('update', Array, true)
+#14 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php(47): CController->render('update', Array)
+#15 [internal function]: AppointmentController->actionUpdate('1')
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(AppointmentController), Array)
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(AppointmentController), Object(ReflectionMethod), Array)
+#18 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('update')
+#22 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('appointment/upd...')
+#23 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/appointment/update/1
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/appointment/index
+---
+2024/06/19 10:13:38 [error] [exception.CException] CException: Property "Appointment.description" is not defined. in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('description')
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\helpers\CHtml.php(2784): CActiveRecord->__get('description')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\helpers\CHtml.php(2507): CHtml::resolveValue(Object(Appointment), 'description')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\helpers\CHtml.php(1554): CHtml::activeInputField('text', Object(Appointment), 'description', Array)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CActiveForm.php(793): CHtml::activeTextField(Object(Appointment), 'description', Array)
+#5 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\Appointment\_form.php(26): CActiveForm->textField(Object(Appointment), 'description', Array)
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\Appointment\update.php(18): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(785): CController->renderPartial('update', Array, true)
+#14 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php(47): CController->render('update', Array)
+#15 [internal function]: AppointmentController->actionUpdate('1')
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(AppointmentController), Array)
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(AppointmentController), Object(ReflectionMethod), Array)
+#18 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('update')
+#22 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('appointment/upd...')
+#23 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/appointment/update/1
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/appointment/index
+---
+2024/06/19 10:20:06 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('appointment/vie...')
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/appointment/view
+---
+2024/06/19 10:20:26 [error] [exception.CException] CException: Property "Appointment.doctor" is not defined. in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('doctor')
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\validators\CStringValidator.php(79): CActiveRecord->__get('doctor')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\validators\CValidator.php(201): CStringValidator->validateAttribute(Object(Appointment), 'doctor')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\base\CModel.php(159): CValidator->validate(Object(Appointment), Array)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(810): CModel->validate(NULL)
+#5 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php(26): CActiveRecord->save()
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): AppointmentController->actionCreate()
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('create')
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('appointment/cre...')
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/appointment/create
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/appointment/create
+---
+2024/06/19 10:20:53 [error] [exception.CException] CException: Property "Appointment.doctor" is not defined. in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('doctor')
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\validators\CStringValidator.php(79): CActiveRecord->__get('doctor')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\validators\CValidator.php(201): CStringValidator->validateAttribute(Object(Appointment), 'doctor')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\base\CModel.php(159): CValidator->validate(Object(Appointment), Array)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(810): CModel->validate(NULL)
+#5 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php(26): CActiveRecord->save()
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): AppointmentController->actionCreate()
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('create')
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('appointment/cre...')
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/appointment/create
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/appointment/create
+---
+2024/06/19 10:24:24 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`klinik`.`appointments`, CONSTRAINT `appointments_ibfk_2` FOREIGN KEY (`doctor_id`) REFERENCES `users` (`user_id`)). The SQL statement executed was: INSERT INTO `appointments` (`status`, `patient_id`, `appointment_date`, `doctor_id`, `reason`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php (26)
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php (13)
+2024/06/19 10:24:24 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`klinik`.`appointments`, CONSTRAINT `appointments_ibfk_2` FOREIGN KEY (`doctor_id`) REFERENCES `users` (`user_id`)). The SQL statement executed was: INSERT INTO `appointments` (`status`, `patient_id`, `appointment_date`, `doctor_id`, `reason`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4) in C:\xampp\htdocs\yiiproject\yii1\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php(26): CActiveRecord->save()
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): AppointmentController->actionCreate()
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('appointment/cre...')
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/appointment/create
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/appointment/create
+---
+2024/06/19 10:24:42 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`klinik`.`appointments`, CONSTRAINT `appointments_ibfk_2` FOREIGN KEY (`doctor_id`) REFERENCES `users` (`user_id`)). The SQL statement executed was: INSERT INTO `appointments` (`status`, `patient_id`, `appointment_date`, `doctor_id`, `reason`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php (26)
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php (13)
+2024/06/19 10:24:42 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`klinik`.`appointments`, CONSTRAINT `appointments_ibfk_2` FOREIGN KEY (`doctor_id`) REFERENCES `users` (`user_id`)). The SQL statement executed was: INSERT INTO `appointments` (`status`, `patient_id`, `appointment_date`, `doctor_id`, `reason`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4) in C:\xampp\htdocs\yiiproject\yii1\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php(26): CActiveRecord->save()
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): AppointmentController->actionCreate()
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('appointment/cre...')
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/appointment/create
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/appointment/create
+---
+2024/06/19 10:27:18 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`klinik`.`appointments`, CONSTRAINT `appointments_ibfk_2` FOREIGN KEY (`doctor_id`) REFERENCES `users` (`user_id`)). The SQL statement executed was: INSERT INTO `appointments` (`status`, `patient_id`, `appointment_date`, `doctor_id`, `reason`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php (26)
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php (13)
+2024/06/19 10:27:18 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`klinik`.`appointments`, CONSTRAINT `appointments_ibfk_2` FOREIGN KEY (`doctor_id`) REFERENCES `users` (`user_id`)). The SQL statement executed was: INSERT INTO `appointments` (`status`, `patient_id`, `appointment_date`, `doctor_id`, `reason`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4) in C:\xampp\htdocs\yiiproject\yii1\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php(26): CActiveRecord->save()
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): AppointmentController->actionCreate()
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('appointment/cre...')
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/appointment/create
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/appointment/create
+---
+2024/06/19 10:29:12 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`klinik`.`appointments`, CONSTRAINT `appointments_ibfk_2` FOREIGN KEY (`doctor_id`) REFERENCES `users` (`user_id`)). The SQL statement executed was: INSERT INTO `appointments` (`status`, `patient_id`, `appointment_date`, `doctor_id`, `reason`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php (26)
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php (13)
+2024/06/19 10:29:12 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`klinik`.`appointments`, CONSTRAINT `appointments_ibfk_2` FOREIGN KEY (`doctor_id`) REFERENCES `users` (`user_id`)). The SQL statement executed was: INSERT INTO `appointments` (`status`, `patient_id`, `appointment_date`, `doctor_id`, `reason`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4) in C:\xampp\htdocs\yiiproject\yii1\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php(26): CActiveRecord->save()
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): AppointmentController->actionCreate()
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('appointment/cre...')
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/appointment/create
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/appointment/create
+---
+2024/06/19 10:32:42 [error] [exception.CException] CException: Property "CRangeValidator.0" is not defined. in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:172
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\validators\CValidator.php(177): CComponent->__set('0', 'date')
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\base\CModel.php(287): CValidator::createValidator(0, Object(Patient), Array, Array)
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\base\CModel.php(304): CModel->getValidators('first_name')
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\helpers\CHtml.php(1534): CModel->isAttributeRequired('first_name')
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CActiveForm.php(601): CHtml::activeLabelEx(Object(Patient), 'first_name', Array)
+#6 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\patient\_form.php(13): CActiveForm->labelEx(Object(Patient), 'first_name')
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\patient\create.php(15): CController->renderPartial('_form', Array)
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#15 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\PatientController.php(31): CController->render('create', Array)
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): PatientController->actionCreate()
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('patient/create')
+#22 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/patient/create
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/patients
+---
+2024/06/19 10:33:56 [error] [exception.TypeError] TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\yiiproject\yii1\framework\web\helpers\CHtml.php:2713
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\helpers\CHtml.php(1552): CHtml::resolveNameID(Object(Patient), 'date_of_birth', 'date')
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\widgets\CActiveForm.php(793): CHtml::activeTextField(Object(Patient), 'date_of_birth', 'date')
+#2 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\patient\_form.php(26): CActiveForm->textField(Object(Patient), 'date_of_birth', 'date')
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\patient\create.php(15): CController->renderPartial('_form', Array)
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#11 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\PatientController.php(31): CController->render('create', Array)
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): PatientController->actionCreate()
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('create')
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('patient/create')
+#18 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/patient/create
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/patients
+---
+2024/06/19 10:35:53 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`klinik`.`appointments`, CONSTRAINT `appointments_ibfk_2` FOREIGN KEY (`doctor_id`) REFERENCES `users` (`user_id`)). The SQL statement executed was: INSERT INTO `appointments` (`status`, `patient_id`, `appointment_date`, `doctor_id`, `reason`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php (26)
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php (13)
+2024/06/19 10:35:53 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`klinik`.`appointments`, CONSTRAINT `appointments_ibfk_2` FOREIGN KEY (`doctor_id`) REFERENCES `users` (`user_id`)). The SQL statement executed was: INSERT INTO `appointments` (`status`, `patient_id`, `appointment_date`, `doctor_id`, `reason`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4) in C:\xampp\htdocs\yiiproject\yii1\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php(26): CActiveRecord->save()
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): AppointmentController->actionCreate()
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('appointment/cre...')
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/appointment/create
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/appointment/create
+---
+2024/06/19 11:20:13 [error] [exception.CException] CException: Property "Appointment.doctor" is not defined. in C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('doctor')
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php(612) : eval()'d code(1): CActiveRecord->__get('doctor')
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\base\CComponent.php(612): eval()
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\zii\widgets\grid\CDataColumn.php(148): CComponent->evaluateExpression('$data->doctor->...', Array)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\zii\widgets\grid\CGridColumn.php(237): CDataColumn->getDataCellContent(0)
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\zii\widgets\grid\CGridColumn.php(160): CGridColumn->renderDataCellContent(0, Object(Appointment))
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\zii\widgets\grid\CGridView.php(655): CGridColumn->renderDataCell(0)
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\zii\widgets\grid\CGridView.php(639): CGridView->renderDataCell(Object(CDataColumn), 0)
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\zii\widgets\grid\CGridView.php(595): CGridView->renderTableRow(0)
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\zii\widgets\grid\CGridView.php(505): CGridView->renderTableBody()
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\zii\widgets\CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\zii\widgets\CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{item...')
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\zii\widgets\CBaseListView.php(149): CBaseListView->renderContent()
+#14 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(182): CBaseListView->run()
+#15 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\Appointment\index.php(14): CBaseController->widget('zii.widgets.gri...', Array)
+#16 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#18 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#19 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#20 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php(8): CController->render('index', Array)
+#21 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): AppointmentController->actionIndex()
+#22 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#23 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#24 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('index')
+#26 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('appointment/ind...')
+#27 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/appointments
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/appointment/7
+---
+2024/06/19 11:32:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "create". in C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('create')
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/create
+---
+2024/06/19 11:34:49 [warning] [application] Failed to set unsafe attribute "doctor_id" of "Appointment".
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php (25)
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php (13)
+2024/06/19 11:34:49 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`klinik`.`appointments`, CONSTRAINT `appointments_ibfk_2` FOREIGN KEY (`doctor_id`) REFERENCES `users` (`user_id`)). The SQL statement executed was: INSERT INTO `appointments` (`status`, `patient_id`, `appointment_date`, `reason`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php (26)
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php (13)
+2024/06/19 11:34:49 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`klinik`.`appointments`, CONSTRAINT `appointments_ibfk_2` FOREIGN KEY (`doctor_id`) REFERENCES `users` (`user_id`)). The SQL statement executed was: INSERT INTO `appointments` (`status`, `patient_id`, `appointment_date`, `reason`) VALUES (:yp0, :yp1, :yp2, :yp3) in C:\xampp\htdocs\yiiproject\yii1\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php(26): CActiveRecord->save()
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): AppointmentController->actionCreate()
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('appointment/cre...')
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/appointment/create
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/appointment/create
+---
+2024/06/19 11:34:53 [warning] [application] Failed to set unsafe attribute "doctor_id" of "Appointment".
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php (25)
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php (13)
+2024/06/19 11:34:53 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`klinik`.`appointments`, CONSTRAINT `appointments_ibfk_2` FOREIGN KEY (`doctor_id`) REFERENCES `users` (`user_id`)). The SQL statement executed was: INSERT INTO `appointments` (`status`, `patient_id`, `appointment_date`, `reason`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php (26)
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php (13)
+2024/06/19 11:34:53 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`klinik`.`appointments`, CONSTRAINT `appointments_ibfk_2` FOREIGN KEY (`doctor_id`) REFERENCES `users` (`user_id`)). The SQL statement executed was: INSERT INTO `appointments` (`status`, `patient_id`, `appointment_date`, `reason`) VALUES (:yp0, :yp1, :yp2, :yp3) in C:\xampp\htdocs\yiiproject\yii1\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php(26): CActiveRecord->save()
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): AppointmentController->actionCreate()
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('appointment/cre...')
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/appointment/create
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/appointment/create
+---
+2024/06/19 11:48:18 [error] [php] Undefined variable $dataProvider (C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\Appointment\view.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\yiiproject\yii1\framework\web\CBaseController.php(95): AppointmentController->renderInternal()
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(872): AppointmentController->renderFile()
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(785): AppointmentController->renderPartial()
+#4 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php(15): AppointmentController->render()
+#5 unknown(0): AppointmentController->actionView()
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs()
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): AppointmentController->runAction()
+#10 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): AppointmentController->runActionWithFilters()
+#11 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): AppointmentController->run()
+#12 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/appointment/1
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\views\Appointment\view.php (20)
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\AppointmentController.php (15)
+in C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php (13)
+2024/06/19 17:40:36 [error] [exception.CException] CException: WilayahController cannot find the requested view "index". in C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php:881
+Stack trace:
+#0 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#1 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\protected\controllers\WilayahController.php(8): CController->render('index', Array)
+#2 C:\xampp\htdocs\yiiproject\yii1\framework\web\actions\CInlineAction.php(49): WilayahController->actionIndex()
+#3 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yiiproject\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yiiproject\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('wilayah/index')
+#8 C:\xampp\htdocs\yiiproject\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiiproject\yii1\demos\klinik2\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiiproject/yii1/demos/klinik2/index.php/wilayah/index
+HTTP_REFERER=http://localhost/yiiproject/yii1/demos/klinik2/index.php/pegawai
+---
