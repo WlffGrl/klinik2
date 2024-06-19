@@ -4,10 +4,7 @@ $this->breadcrumbs=array(
     'Create',
 );
 
-$this->menu=array(
-    array('label'=>'List Wilayah', 'url'=>array('index')),
-    array('label'=>'Manage Wilayah', 'url'=>array('admin')),
-);
+
 ?>
 
 <h1>Create Wilayah</h1>

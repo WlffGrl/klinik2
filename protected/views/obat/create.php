@@ -4,10 +4,7 @@ $this->breadcrumbs=array(
     'Create',
 );
 
-$this->menu=array(
-    array('label'=>'List Obat', 'url'=>array('index')),
-    array('label'=>'Manage Obat', 'url'=>array('admin')),
-);
+
 ?>
 
 <h1>Create Obat</h1>

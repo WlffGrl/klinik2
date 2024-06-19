@@ -5,12 +5,6 @@ $this->breadcrumbs=array(
     'Update',
 );
 
-$this->menu=array(
-    array('label'=>'List Patients', 'url'=>array('index')),
-    array('label'=>'Create Patient', 'url'=>array('create')),
-    array('label'=>'View Patient', 'url'=>array('view', 'id'=>$model->patient_id)),
-    array('label'=>'Manage Patients', 'url'=>array('admin')),
-);
 ?>
 
 <h1>Update Patient <?php echo $model->first_name.' '.$model->last_name; ?></h1>

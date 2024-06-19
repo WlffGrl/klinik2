@@ -30,9 +30,8 @@
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'Home', 'url'=>array('/site/index')),
-				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'Contact', 'url'=>array('/site/contact')),
 				array('label'=>'Patient', 'url'=>array('/patient/index'), 'visible'=>Yii::app()->user->isAdmin()),
+				array('label'=>'Patient', 'url'=>array('/patient/create'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'Obat', 'url'=>array('/obat/index'), 'visible'=>Yii::app()->user->isAdmin()),
 				array('label'=>'Pegawai', 'url'=>array('/pegawai/index'), 'visible'=>Yii::app()->user->isAdmin()), 
 				array('label'=>'Manage Wilayah', 'url'=>array('/wilayah/index'), 'visible'=>Yii::app()->user->isAdmin()), 

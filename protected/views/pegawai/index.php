@@ -3,10 +3,7 @@ $this->breadcrumbs=array(
     'Pegawai',
 );
 
-$this->menu=array(
-    array('label'=>'Create Pegawai', 'url'=>array('create')),
-    array('label'=>'Manage Pegawai', 'url'=>array('admin')),
-);
+
 ?>
 
 <h1>Pegawai</h1>

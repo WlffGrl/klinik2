@@ -1,13 +1,8 @@
 <?php
 $this->breadcrumbs=array(
-    'Patients'=>array('index'),
     'Create',
 );
 
-$this->menu=array(
-    array('label'=>'List Patients', 'url'=>array('index')),
-    array('label'=>'Manage Patients', 'url'=>array('admin')),
-);
 ?>
 
 <h1>Create Patient</h1>

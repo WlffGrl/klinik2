@@ -4,13 +4,7 @@ $this->breadcrumbs=array(
     $model->first_name.' '.$model->last_name,
 );
 
-$this->menu=array(
-    array('label'=>'List Patients', 'url'=>array('index')),
-    array('label'=>'Create Patient', 'url'=>array('create')),
-    array('label'=>'Update Patient', 'url'=>array('update', 'id'=>$model->patient_id)),
-    array('label'=>'Delete Patient', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->patient_id),'confirm'=>'Are you sure you want to delete this item?')),
-    array('label'=>'Manage Patients', 'url'=>array('admin')),
-);
+
 ?>
 
 <h1>Patient : <?php echo $model->first_name.' '.$model->last_name; ?></h1>
